@@ -383,9 +383,8 @@ footer.sticky-bottom {
   h2.year {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
-    padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
+    margin-bottom: 0rem;
     text-align: right;
   }
   ol.bibliography {
@@ -479,6 +478,14 @@ footer.sticky-bottom {
       }
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
+      }
+      .teaser {
+        border-radius: 8px;
+        box-shadow: 3px 3px 6px #888;
+        width: 180px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
       }
     }
   }
