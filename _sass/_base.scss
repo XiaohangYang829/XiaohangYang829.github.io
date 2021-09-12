@@ -189,22 +189,29 @@ blockquote {
 
 
 // News
-
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
+  padding: -1rem;
 }
 
 .news table th {
   color: var(--global-text-color);
 }
 
+// here I hack the padding directly
+.news table.table-sm th, table.table-sm td {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -216,6 +223,8 @@ blockquote {
         }
       }
     }
+    margin-top: -1rem;
+    margin-bottom: 1rem;
   }
   .contact-note {
     font-size: 0.8rem;
