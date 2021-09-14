@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: The active research projects are listed below.
+description: We are interested in developing the human-centric AI techniques for computer vision and machine autonomy. 
 nav: true
-display_categories: [work, fun]
+display_categories: [generative models, machine autonomy, interpretable machine learning, scene understanding]
 horizontal: false
 ---
 <div class="projects">

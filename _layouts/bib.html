@@ -5,14 +5,13 @@
   <div class="col-sm-3 abbr">
   {% if entry.teaser %}
     <img src="../assets/teaser/{{entry.teaser}}" class="teaser">
-  {% else %}
-    {% if entry.abbr %}
+  {% endif %}
+  {% if entry.abbr %}
         {% if site.data.venues[entry.abbr] %}
             <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
         {% else %}
             <abbr class="badge">{{entry.abbr}}</abbr>
         {% endif %}
-    {% endif %}
   {% endif %}
   </div>
 
