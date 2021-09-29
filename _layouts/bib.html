@@ -40,14 +40,14 @@
           
           {% if forloop.length == 1 %}
             {% if author_is_self %}
-            <em>{{author.first}} {{author.last}}</em>
+            {{author.first}} {{author.last}}
             {% else %}
                 {{author.first}} {{author.last}}
             {% endif %}
           {% else %}
             {% unless forloop.last %}
               {% if author_is_self %}
-                <em>{{author.first}} {{author.last}}</em>,
+                {{author.first}} {{author.last}},
               {% else %}
                 {% if coauthor_url %}
                 <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
@@ -57,7 +57,7 @@
               {% endif %}
             {% else %}
               {% if author_is_self %}
-              and <em>{{author.first}} {{author.last}}</em>
+              and {{author.first}} {{author.last}}
               {% else %}
                 {% if coauthor_url %}
                 and <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>
@@ -86,6 +86,13 @@
     {% endif %}
 
     <div class="links">
+    {% if entry.pdf %}
+      {% if entry.pdf contains '://' %}
+      <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      {% else %}
+      <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
+      {% endif %}
+    {% endif %}
     {% if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
     {% endif %}
@@ -97,13 +104,6 @@
     {% endif %}
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
-    {% endif %}
-    {% if entry.pdf %}
-      {% if entry.pdf contains '://' %}
-      <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-      {% else %}
-      <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-      {% endif %}
     {% endif %}
     {% if entry.supp %}
       {% if entry.supp contains '://' %}

@@ -1,12 +1,17 @@
 ---
 layout: page
-title: projects
+title: research
 permalink: /projects/
-description: We are interested in developing the human-centric AI techniques for computer vision and machine autonomy. 
 nav: true
 display_categories: [generative models, machine autonomy, interpretable machine learning, scene understanding]
 horizontal: false
+importance: 3
 ---
+<div>
+This page lists some representative research works that my students and I do. My group is interested in developing safe, reliable, and interpretable learning algorithms for computer vision and machine autonomy.
+
+</div>
+
 <div class="projects">
   {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

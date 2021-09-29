@@ -4,6 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Some of the courses I taught are listed below. 
 nav: true
+importance: 4
 ---
 <div>
 		<ul>

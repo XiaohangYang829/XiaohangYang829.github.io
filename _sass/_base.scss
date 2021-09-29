@@ -197,6 +197,7 @@ blockquote {
 
 .news table th {
   color: var(--global-text-color);
+  width: 95px;
 }
 
 // here I hack the padding directly
@@ -403,6 +404,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
+      min-height: 120px;
       margin-bottom: 1.3rem;
       .abbr {
         height: 2rem;

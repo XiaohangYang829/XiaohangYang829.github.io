@@ -13,6 +13,7 @@ profile:
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
+importance: 1
 ---
 
 I study interpretable human-AI interaction for computer vision and machine autonomy. I am interested in understanding various human-centric properties of AI models beyond the accuracy, such as <a href="http://cnnlocalization.csail.mit.edu/">explainability</a>, <a href="http://netdissect.csail.mit.edu/">interpretability</a>, <a href="https://genforce.github.io/higan/">steerability</a>, <a href="https://decisionforce.github.io/pgdrive/">generalization</a>, <a href="https://genforce.github.io/fairgen/">fairness and bias</a>. 
