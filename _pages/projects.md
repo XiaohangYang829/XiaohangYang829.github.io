@@ -8,7 +8,7 @@ horizontal: false
 importance: 3
 ---
 <div>
-This page lists some representative research works that my students and I do. My group is interested in developing safe, reliable, and interpretable learning algorithms for computer vision and machine autonomy.
+This page lists some representative research works that my students and I do. We are interested in developing efficient and interpretable learning algorithms for computer vision and machine autonomy. See more in the research portfolio pages: <a href="https://genforce.github.io/">GenForce</a> on generative modeling, <a href="https://decisionforce.github.io/">DecisionForce</a> on machine autonomy.
 
 </div>
 
