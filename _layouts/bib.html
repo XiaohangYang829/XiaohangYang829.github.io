@@ -4,7 +4,7 @@
 <div class="row">
   <div class="col-sm-3 abbr">
   {% if entry.teaser %}
-    <img src="../assets/teaser/{{entry.teaser}}" class="teaser">
+    <img src="../assets/teaser/{{entry.teaser}}" class="teaser img-fluid z-depth-1">
   {% endif %}
   {% if entry.abbr %}
         {% if site.data.venues[entry.abbr] %}
@@ -117,6 +117,9 @@
     {% endif %}
     {% if entry.code %}
       <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+    {% endif %}
+    {% if entry.video %}
+      <a href="{{ entry.video }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
     {% endif %}
     {% if entry.poster %}
       {% if entry.poster contains '://' %}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ade20k
+title: ADE20k
 description: scene parsing dataset with precise pixel-level annotations
 img: /assets/teaser/cover_sceneparsing.jpeg
 importance: 2

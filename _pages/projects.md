@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /projects/
 nav: true
 display_categories: [generative models, machine autonomy, interpretable machine learning, scene understanding]

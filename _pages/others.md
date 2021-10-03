@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /others/
-title: others
+title: Others
 description: 
 nav: true
 importance: 10
