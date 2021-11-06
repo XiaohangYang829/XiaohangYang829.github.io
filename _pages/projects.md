@@ -8,7 +8,10 @@ horizontal: false
 importance: 3
 ---
 <div>
-This page lists some representative research works that my students and I do. We are interested in developing efficient and interpretable learning algorithms for computer vision and machine autonomy. See more in the research portfolio pages: <a href="https://genforce.github.io/">GenForce</a> on generative modeling, <a href="https://decisionforce.github.io/">DecisionForce</a> on machine autonomy.
+This page lists some representative research works that my students and I do. We are developing efficient and interpretable learning algorithms for computer vision and machine autonomy. Particularly I am interested in exploring the potential topics for facilitating human-AI interactions. Some recent examples are the <a href="https://genforce.github.io/sefa/">human-in-the-loop image editing</a> and the <a href="https://decisionforce.github.io/EGPO/">expert-in-the-loop safe policy optimization</a>. I am also interested in understanding human-centric properties of AI models beyond their performance, such as <a href="http://cnnlocalization.csail.mit.edu/">explainability</a>, <a href="http://netdissect.csail.mit.edu/">interpretability</a>, <a href="https://genforce.github.io/higan/">steerability</a>.
+
+<br>
+<br>Please also check out the dedicated research portfolio pages: <a href="https://genforce.github.io/">GenForce</a> on generative modeling, <a href="https://decisionforce.github.io/">DecisionForce</a> on machine autonomy. 
 
 </div>
 
