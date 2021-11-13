@@ -16,7 +16,7 @@ social: false  # includes social icons at the bottom of the page
 importance: 1
 ---
 
-<b>I will move to <a href="https://www.cs.ucla.edu/">UCLA Computer Science</a> Jan 2022 and admit new PhD/MS students in UCLA for fall 2022. If you are interested in joining my group, please apply <a href="https://www.cs.ucla.edu/graduate-admissions/">here</a>. See <a href="projects/">projects</a> and <a href="publications">publications</a> for the research focuses in my group. </b>
+<b>I will move to <a href="https://www.cs.ucla.edu/">UCLA Computer Science</a> on Jan 2022 and admit new PhD/MS students in UCLA for the fall 2022. If you are interested in joining my group at UCLA CS, please apply <a href="https://www.cs.ucla.edu/graduate-admissions/">here</a>. See <a href="projects/">projects</a> and <a href="publications">publications</a> for the research focuses in my group. </b>
 
 I study interpretable human-AI interaction for computer vision and machine autonomy. I am also interested in understanding various human-centric properties of current AI models beyond their accuracy, such as <a href="http://cnnlocalization.csail.mit.edu/">explainability</a>, <a href="http://netdissect.csail.mit.edu/">interpretability</a>, <a href="https://genforce.github.io/higan/">steerability</a>, <a href="https://decisionforce.github.io/pgdrive/">generalization</a>, <a href="https://genforce.github.io/fairgen/">fairness and bias</a>. 
 
