@@ -21,10 +21,10 @@ importance: 10
         <ul>
             <li><b>Current PhD students</b>: <a href="http://ceyuan.me/about/">Ceyuan Yang</a>, <a href="https://pengzhenghao.github.io/">Zhenghao Peng</a>, <a href="https://justimyhxu.github.io/academic.html">Yinghao Xu</a>, Qihang Zhang, Xian Liu.
             </li>
-            <li><b>Current Master's students and RAs</b>: <a href="https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en">Jiankai Sun</a>, Hao Sun (PhD student to be at Cambridge), Quanyi Li, Haoyue Bai, Jianyuan Wang.</li>
-            <li><b>Current undergraduate students</b>: Si Jiang, Zhenghai Xue, Yuanqi Du, Zhihan Liu.</li>
+            <li><b>Current Master's students and RAs</b>: Quanyi Li, Haoyue Bai, Jianyuan Wang.</li>
+            <li><b>Current undergraduate students</b>: Zhenghai Xue, Yuanqi Du, Zhihan Liu.</li>
             <li><b>Graduated PhD students</b>: <a href="http://shenyujun.github.io/">Yujun Shen</a> (Researcher at ByteDance)</li>
-            <li><b>Previous undergraduates and RAs</b>: <a href="http://www.cs.princeton.edu/~jw60/">Jimmy Wu</a> (PhD student at Princeton), <a href="">Alex Andonian</a> (PhD student at MIT), <a href="http://tetexiao.com/">Tete Xiao</a> (PhD student at UC Berkeley), <a href="https://pbw-berwin.github.io/">Bowen Pan</a> (PhD student at MIT), <a href="http://www.jasongt.com/">Jinjin Gu</a> (PhD student at Sydney University), Tiga Leung (master study in UK), Kaiwen Zha (PhD student at MIT), <a href="https://zhujiapeng.github.io/">Jiapeng Zhu</a> (PhD student at HKUST), Shuhan Tan (PhD student at UT Austin)</li>
+            <li><b>Previous undergraduates and RAs</b>: <a href="http://www.cs.princeton.edu/~jw60/">Jimmy Wu</a> (PhD student at Princeton), <a href="">Alex Andonian</a> (PhD student at MIT), <a href="http://tetexiao.com/">Tete Xiao</a> (PhD student at UC Berkeley), <a href="https://pbw-berwin.github.io/">Bowen Pan</a> (PhD student at MIT), <a href="http://www.jasongt.com/">Jinjin Gu</a> (PhD student at Sydney University), Tiga Leung (master study in UK), Kaiwen Zha (PhD student at MIT), <a href="https://zhujiapeng.github.io/">Jiapeng Zhu</a> (PhD student at HKUST), Shuhan Tan (PhD student at UT Austin),<a href="https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en">Jiankai Sun</a>, Hao Sun (PhD student to be at Cambridge)</li>
         </ul>
 
     <h3>Honors</h3>
