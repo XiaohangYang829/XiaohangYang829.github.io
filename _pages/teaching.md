@@ -8,6 +8,7 @@ importance: 4
 Courses at UCLA
 <div>
 		<ul>
+            <li><a href="https://bruinlearn.ucla.edu/courses/129743">CS269 Human-centered AI for Computer Vision and Machine Autonomy, Spring Quarter 2022</li>
             <li><a href="https://bruinlearn.ucla.edu/courses/111828">CS188 Deep Learning for Computer Vision</a>, Winter Quarter 2022</li>
         </ul>
 </div>
