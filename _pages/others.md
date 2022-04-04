@@ -11,7 +11,7 @@ importance: 10
     <h3>Academic Services</h3>
     <div>
         <ul>
-            <li>Area Chairs for ICCV'21, CVPR'21, AAAI'21(SPC), BMVC'21, WACV'22, CVPR'22, AAAI'22(SPC)</li>
+            <li>Area Chairs for ECCV'22, CVPR'22, AAAI'22(SPC), WACV'22, BMVC'21, CVPR'21, ICCV'21, AAAI'21(SPC)</li>
             <li>Publicity Chair for ICCV'19</li>
             <li>Associate Editor for Pattern Recognition</li>
         </ul>    
