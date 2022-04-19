@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-11-02
+date: 2022-04-19
 inline: true
 ---
 
-<a href="https://decisionforce.github.io/metadrive/">MetaDrive simulator</a> is released, facilitating generalizable RL and machine autonomy research.
+<a href="https://metadriverse.github.io/metadrive/">MetaDrive simulator</a> is updated to facilitate research on RL generalizability, safe exploration, and Multi-Agent traffic simulation.
