@@ -11,7 +11,7 @@ importance: 10
     <h3>Academic Services</h3>
     <div>
         <ul>
-            <li>Area Chairs for ECCV'22, CVPR'22, AAAI'22(SPC), WACV'22, BMVC'21, CVPR'21, ICCV'21, AAAI'21(SPC)</li>
+            <li>Area Chairs for AAAI'23, ECCV'22, CVPR'22, AAAI'22(SPC), WACV'22, BMVC'21, CVPR'21, ICCV'21, AAAI'21(SPC)</li>
             <li>Publicity Chair for ICCV'19</li>
             <li>Associate Editor for Pattern Recognition</li>
         </ul>    
@@ -19,12 +19,13 @@ importance: 10
 
     <h3>Students</h3>
         <ul>
-            <li><b>Current PhD students</b>: <a href="http://ceyuan.me/about/">Ceyuan Yang</a>, <a href="https://pengzhenghao.github.io/">Zhenghao Peng</a>, <a href="https://justimyhxu.github.io/academic.html">Yinghao Xu</a>, Qihang Zhang, Xian Liu.
+            <li><b>Current PhD students</b>:  <a href="https://pengzhenghao.github.io/">Zhenghao Peng</a>, <a href="https://justimyhxu.github.io/academic.html">Yinghao Xu</a>, Qihang Zhang, Qi Li
             </li>
-            <li><b>Current Master's students and RAs</b>: Quanyi Li, Haoyue Bai, Jianyuan Wang.</li>
-            <li><b>Current undergraduate students</b>: Zhenghai Xue, Yuanqi Du, Zhihan Liu.</li>
-            <li><b>Graduated PhD students</b>: <a href="http://shenyujun.github.io/">Yujun Shen</a> (Researcher at ByteDance)</li>
-            <li><b>Previous undergraduates and RAs</b>: <a href="http://www.cs.princeton.edu/~jw60/">Jimmy Wu</a> (PhD student at Princeton), <a href="">Alex Andonian</a> (PhD student at MIT), <a href="http://tetexiao.com/">Tete Xiao</a> (PhD student at UC Berkeley), <a href="https://pbw-berwin.github.io/">Bowen Pan</a> (PhD student at MIT), <a href="http://www.jasongt.com/">Jinjin Gu</a> (PhD student at Sydney University), Tiga Leung (master study in UK), Kaiwen Zha (PhD student at MIT), <a href="https://zhujiapeng.github.io/">Jiapeng Zhu</a> (PhD student at HKUST), Shuhan Tan (PhD student at UT Austin),<a href="https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en">Jiankai Sun</a>, Hao Sun (PhD student to be at Cambridge)</li>
+            <li><b>Current Master's students and RAs</b>: Quanyi Li, Feng Lan, Chenda Duan.</li>
+            <li><b>Current undergraduate students</b>: Alexander Swerdlow, Wenjie Mo, Tony Xia.</li>
+            <li><b>Graduated PhD students</b>: <a href="http://ceyuan.me/about/">Ceyuan Yang</a>, <a href="http://shenyujun.github.io/">Yujun Shen</a> (Researcher at ByteDance)</li>
+            <li><br>Graduated Master's students</b>: Hao Sun (Mphil student, now PhD student at Cambridge), Jiankai Sun (Mphil student, now PhD student at Stanford), Nilay Shah
+            <li><b>Previous undergraduates and RAs</b>: <a href="http://www.cs.princeton.edu/~jw60/">Jimmy Wu</a> (PhD student at Princeton), <a href="">Alex Andonian</a> (PhD student at MIT), <a href="http://tetexiao.com/">Tete Xiao</a> (PhD student at UC Berkeley), <a href="https://pbw-berwin.github.io/">Bowen Pan</a> (PhD student at MIT), <a href="http://www.jasongt.com/">Jinjin Gu</a> (PhD student at Sydney University), Tiga Leung (master study in UK), Kaiwen Zha (PhD student at MIT), <a href="https://zhujiapeng.github.io/">Jiapeng Zhu</a> (PhD student at HKUST), Shuhan Tan (PhD student at UT Austin), Haoyue Bai (RA in 2021, now PhD student at UW Madison), Zhenghai Xue (RA in 2021, now PhD student at NTU), Jianyuan Wang (remote RA in 2021, now PhD student at Oxford University), Yuanqi Du (remote RA in 2021, PhD student at Cornell), Zhihan Liu (remote RA in 2021, PhD student at Northwestern).</li>
         </ul>
 
     <h3>Honors</h3>
