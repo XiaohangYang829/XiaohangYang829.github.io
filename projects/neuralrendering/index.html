@@ -9,9 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Neural Rendering | Xiaohang (Joshua) Yang</title>
+    <title>Neural Rendering of Dynamic Scenes | Xiaohang (Joshua) Yang</title>
     <meta name="author" content="Xiaohang (Joshua) Yang" />
-    <meta name="description" content="Full-scene neural rendering for autonomous driving" />
+    <meta name="description" content="Neural rendering of dynamic scenes for autonomous driving simulation." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -101,21 +101,15 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Neural Rendering</h1>
-            <p class="post-description">Full-scene neural rendering for autonomous driving</p>
+            <h1 class="post-title">Neural Rendering of Dynamic Scenes</h1>
+            <p class="post-description">Neural rendering of dynamic scenes for autonomous driving simulation.</p>
           </header>
 
           <article>
-            <p>This is a research project, and my focus is on this at present.</p>
-
-<p>The big goal of our group is to reconstruct the whole real-world scene with low computational complexity. We take autonomous driving task as the main dataset to reconstruct.</p>
-
-<p>The whole scene can be split into foreground, background and other factors like illumination, and I mainly study the categorical neural representations for foreground objects, especially the dynamic vehicles and deformable pedestrians.</p>
-
-<p>To represent the dynamic scenes, in my early experiments, scene flow is explicitly modeled, like other prior work. While these methods are more like interpolation and extrapolation of the original video. The result representation cannot render images with unseen views, and decomposing objects and background is hard.</p>
+            <p>In this neural rendering project, by adding the explicit module of scene flow fields to the original NeRF, a long time of dynamic 3D scenes can be represented.</p>
 
 <div class="row">
-    <div class="col-sm mt-2 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         <figure>
 
   <picture>
@@ -129,7 +123,7 @@
 </figure>
 
     </div>
-    <div class="col-sm mt-2 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0">
         <figure>
 
   <picture>
@@ -148,7 +142,7 @@
     Two early results on WaymoDataset.
 </div>
 
-<p>（New Update is in progress)</p>
+<p>This method is more like the 3D version of video compression, where the canonical 3D scene at the original time corresponds to the reference frame in the compressed video, and the implicit or explicit scene flow fields correspond to the motion vector.</p>
 
           </article>
 
@@ -159,7 +153,7 @@
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
         © Copyright 2022 Xiaohang (Joshua) Yang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
-Last updated: October 14, 2022.
+Last updated: November 11, 2022.
       </div>
     </footer>
 

@@ -11,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Efficient Frame Interpolation | Xiaohang (Joshua) Yang</title>
     <meta name="author" content="Xiaohang (Joshua) Yang" />
-    <meta name="description" content="Defect detection and segmentation on assembly line" />
+    <meta name="description" content="Real-time frame interpolation for increasing the frame rates of videos" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -102,17 +102,21 @@
 
           <header class="post-header">
             <h1 class="post-title">Efficient Frame Interpolation</h1>
-            <p class="post-description">Defect detection and segmentation on assembly line</p>
+            <p class="post-description">Real-time frame interpolation for increasing the frame rates of videos</p>
           </header>
 
           <article>
-            <p>This is a research project, and my master degree thesis is also based on it.</p>
+            <p>The refresh rates of today’s mobile phones and computers are getting higher and higher, but the refresh rates of many videos are still stuck at less than 30FPS. Video interpolation algorithms can effectively bridge the gap between the video frame rate and the refresh rate of the display device.</p>
 
-<p>Frame interpolation can significantly improve the viewing effect of video. While the frame rates of most existing methods is still far from the real-time target. I design a new method which maintains most of the performance when improve at least 60% efficiency.</p>
+<p>My target is to design a real-time frame interpolation method which can increase the frame rates significantly while maintains the details of the frames.</p>
+
+<p>My method is based on the flow-based frame interpolation algorithms. The whole process can be divided into two part, flow estimation and fusion. With two frames as input, the optical flows from the inexisted middle frame to the two reference frames are estimated respectively. Then the reference frames are warped based on the optical flow. The final frame is fused based on the warped images. Shown below is an interpolated example.</p>
 
 <div class="row">
-    <div class="col-sm mt-2 mt-md-0">
-        <figure>
+  <div class="col-sm-1 mt-3 mt-md-0">
+  </div>
+  <div class="col-sm-5 mt-3 mt-md-0">
+      <figure>
 
   <picture>
     
@@ -124,9 +128,12 @@
 
 </figure>
 
-    </div>
-    <div class="col-sm mt-2 mt-md-0">
-        <figure>
+      <div class="caption">
+        Original Video Frames.
+      </div>
+  </div>
+  <div class="col-sm-5 mt-3 mt-md-0">
+      <figure>
 
   <picture>
     
@@ -138,11 +145,41 @@
 
 </figure>
 
+      <div class="caption">
+        8x Interpolation &amp; Smoother Motion.
+      </div>
+  </div>
+  <div class="col-sm-1 mt-3 mt-md-0">
+  </div>
+</div>
+
+<p>My method achieve 35.36 of PSNR, and is much more faster than all the other methods.</p>
+
+<div class="row">
+    <div class="col-sm-2 mt-3 mt-md-0">
+    </div>
+    <div class="col-sm-8 mt-2 mt-md-0">
+        <figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/teaser/performance_efficiency.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="performance and efficiency" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+    </div>
+    <div class="col-sm-2 mt-3 mt-md-0">
     </div>
 </div>
 <div class="caption">
-    The motion is smoother.
+    My Method is Faster when Interpolate Good Frames.
 </div>
+
+<p>My master degree thesis is based on this project.</p>
 
           </article>
 
@@ -153,7 +190,7 @@
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
         © Copyright 2022 Xiaohang (Joshua) Yang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
-Last updated: October 14, 2022.
+Last updated: November 11, 2022.
       </div>
     </footer>
 

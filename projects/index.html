@@ -107,18 +107,46 @@
           </header>
 
           <article>
-            <p>This page lists some projects that I do aside from the research works in <code class="language-plaintext highlighter-rouge">Publications</code>.</p>
+            <p>This page lists some projects that I do aside the research works in <code class="language-plaintext highlighter-rouge">Publications</code>.</p>
 
-<p>I am developing efficient and reliable <code class="language-plaintext highlighter-rouge">neural representation algorithms for dynamic scenes</code>. Particularly I am interested in exploring the potential topics for categorical neural representations for foreground deformable objects and efficient neural rendering algorithms of large scenes.</p>
+<p>I am developing efficient and reliable <code class="language-plaintext highlighter-rouge">neural representations for dynamic scenes</code>. Particularly I am working on exploring the potential topics for categorical neural representations for foreground deformable objects and efficient neural rendering algorithms of large scenes.</p>
 
-<p>Some earlier projects are <code class="language-plaintext highlighter-rouge">defect detection and segmentation on assembly line</code> and <code class="language-plaintext highlighter-rouge">small object detection in real-world construction site</code>.</p>
+<p>Video Processing and Percption was my focus when I was at the Institute of Image Processing and Pattern Recognition. I exploited mition cues from videos, and applied them to improve the performances of tasks like frame interpolation and action recognition.</p>
+
+<p>At the bottom of this page, some earlier industial projects <code class="language-plaintext highlighter-rouge">defect detection and segmentation on assembly line</code> and <code class="language-plaintext highlighter-rouge">small object detection in real-world construction site</code>, are also included.</p>
 
 <!-- pages/projects.md -->
 <div class="projects">
   <!-- Display categorized projects -->
-  <h2 class="category">project</h2>
+  <h2 class="category">Neural Rendering</h2>
   <!-- Generate cards for each project -->
   <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/categorical/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/teaser/motionTaAc_Tviewdirs.gif" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Categorical Deformable Neural Representation</h2>
+          <p class="card-text">Foreground objects reconstruction, both rigid and non-rigid.</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
@@ -137,14 +165,18 @@
 </figure>
 
         <div class="card-body">
-          <h2 class="card-title text-lowercase">Neural Rendering</h2>
-          <p class="card-text">Full-scene neural rendering for autonomous driving</p>
+          <h2 class="card-title text-lowercase">Neural Rendering of Dynamic Scenes</h2>
+          <p class="card-text">Neural rendering of dynamic scenes for autonomous driving simulation.</p>
           <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
       </div>
     </a>
 </div>
+  </div>
+  <h2 class="category">Video Processing</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
@@ -164,13 +196,43 @@
 
         <div class="card-body">
           <h2 class="card-title text-lowercase">Efficient Frame Interpolation</h2>
-          <p class="card-text">Defect detection and segmentation on assembly line</p>
+          <p class="card-text">Real-time frame interpolation for increasing the frame rates of videos</p>
           <div class="row ml-1 mr-1 p-0">
           </div>
         </div>
       </div>
     </a>
 </div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/opf_action/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/teaser/eight_action.jpg" width="auto" height="auto" alt="project thumbnail" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Optical Flow Estimation &amp; Action Recognition</h2>
+          <p class="card-text">Occlusion-aware optical flow estimation and action recognition enhanced by unsupervised optical flow</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">Industrial Project</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
 <!-- _includes/projects.html -->
 <div class="grid-sizer"></div>
 <div class="grid-item">
@@ -235,7 +297,7 @@
     <!-- Footer -->    <footer class="sticky-bottom mt-5">
       <div class="container">
         © Copyright 2022 Xiaohang (Joshua) Yang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
-Last updated: October 14, 2022.
+Last updated: November 11, 2022.
       </div>
     </footer>
 
