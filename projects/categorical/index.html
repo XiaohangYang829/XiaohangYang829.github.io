@@ -110,13 +110,13 @@
 
 <p>The target of this project is to reconstruct all kinds of foreground objects in various dynamic scenes with relatively low complexity.</p>
 
-<p>In this project, I take only foreground obejcts into account, and ignore other factors like background street scenes and sky model. The foreground objects include rigid vehicles and non-rigid people and animals. I build categorical neural representations to avoid assigning model to reconstruct every objects.</p>
+<p>In this project, only foreground obejcts are taken into account, while other factors like background street scenes and sky model, are ignored. The foreground objects include rigid vehicles and non-rigid people and animals. I design categorical neural representations so that it can be avoided to assign too many models for every objects.</p>
 
-<p>To represent the dynamic scenes, in my early experiments, scene flow was explicitly modeled, like other prior works. While these methods were more like interpolation and extrapolation of the original video. The result representations could not render images from unseen views.</p>
+<p>By learning categorical representations, although it is very difficult to collect enough multi-view images for each object in real-world scenes, a large number of images of different instances of the same category can be used together to complete the shape representation of the category.</p>
 
-<p>By learning categorical representations, although it is very difficult to collect enough multi-view images for each object in street scenes, images of different objects of the same type can be used together to complete the shape representation of the category.</p>
+<h4>Synthetic Dataset</h4>
 
-<p>For rigid objects, the time-varying part could be excluded. Below is a toy demo on ShapeNetV2.</p>
+<p>I briefly verify my method on a synthetic dataset. Below is a toy demo on ShapeNetV2.</p>
 
 <div class="row">
     <div class="col-sm-2 mt-3 mt-md-0">
@@ -142,7 +142,7 @@
     Categorical Vehicle Reconstruction on ShapeNetV2.
 </div>
 
-<h4>Dataset</h4>
+<h4>Realistic Dataset</h4>
 
 <p>When I want to extend my experiemnt on street scenes, existed datasets like nuScenes and WaymoDataset lack the crucial tracking and segmentation for each object. Thus, I recollected a dataset based on these two datasets and SOTA MOTS algorithms. The illustration of what is in the new dataset is shown below.</p>
 
@@ -220,7 +220,7 @@
 
 <h4>Results on New Dataset</h4>
 
-<p>The result of vehicle reconstruction on the new dataset is displayed below.</p>
+<p>For rigid vehicles, the time-varying module could be excluded. The result of vehicle reconstruction on the new dataset is displayed below.</p>
 
 <div class="row">
     <div class="col-sm-2 mt-3 mt-md-0">
